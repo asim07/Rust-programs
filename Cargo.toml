@@ -30,3 +30,7 @@ path = "src/new.rs"
 [[bin]]
 name = "ref"
 path = "src/resferecens.rs"
+
+[[bin]]
+name = "copy"
+path = "src/copy.rs"
