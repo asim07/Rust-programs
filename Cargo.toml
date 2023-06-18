@@ -1,0 +1,32 @@
+[package]
+name = "demo1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[[bin]]
+name = "test"
+path = "src/new.rs"
+
+
+
+[[bin]]
+name = "test2"
+path = "src/test2.rs"
+
+
+[[bin]]
+name = "test3"
+path = "src/test3.rs"
+
+[[bin]]
+name = "new"
+path = "src/new.rs"
+
+
+[[bin]]
+name = "ref"
+path = "src/resferecens.rs"
