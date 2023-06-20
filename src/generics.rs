@@ -12,10 +12,9 @@ struct Mystruct<'a> {
     email: &'a str,
 }
 
-// Implement `Display` for `MinMax`.
+// Implement `Display` for `Mystruct`.
 impl<'a> fmt::Display for Mystruct<'a> {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
-        // Use `self.number` to refer to each positional data point.
         write!(f, "{} {} {}", self.name, self.phone, self.email)
     }
 }
