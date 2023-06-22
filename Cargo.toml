@@ -52,3 +52,15 @@ path = "src/struct_with_enum.rs"
 [[bin]]
 name = "generics"
 path = "src/generics.rs" 
+
+[[bin]]
+name = "option"
+path = "src/options.rs" 
+
+[[bin]]
+name = "result"
+path = "src/result.rs"
+
+[[bin]]
+name = "vector"
+path = "src/vectors.rs"
