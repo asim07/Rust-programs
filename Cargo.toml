@@ -63,4 +63,9 @@ path = "src/result.rs"
 
 [[bin]]
 name = "vector"
-path = "src/vectors.rs"
+path = "src/vector.rs"
+
+
+[[bin]]
+name = "hashmap"
+path = "src/hashmap.rs"
