@@ -69,3 +69,7 @@ path = "src/vector.rs"
 [[bin]]
 name = "hashmap"
 path = "src/hashmap.rs"
+
+[[bin]]
+name = "btmap"
+path = "src/Btmap.rs"

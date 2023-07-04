@@ -14,7 +14,8 @@ fn main() {
     city.population.insert("Old lahore", 30);
     city.population.insert("behria", 3124);
 
+    println!("Name of the city: {}", city.name);
     for (k, v) in city.population.iter() {
-        println!("name of palce is {} and population  is {}", k, v);
+        println!("name of place is {} and population  is {}", k, v);
     }
 }
